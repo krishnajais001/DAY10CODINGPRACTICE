@@ -14,11 +14,19 @@ int main(){
     // }
 
     // Create an iterator
-    vector <int> :: iterator it = marks.begin();
-    while (it !=marks.end()){
-        cout<<*it<<",";
-        it++;
-    }
+    // vector <int> :: iterator it = marks.begin();
+    // while (it !=marks.end()){
+    //     cout<<*it<<",";
+    //     it++;
+    // }
+
+    // 2 D Vector
+    vector <vector <int>> arr(5,vector<int>(4,0)) ;
+    int totalRows=arr.size();
+    int totalColumns = arr[0].size();
     
+        cout<<"Total Rows :"<<totalRows<<endl;
+        cout<<"Total Columns :"<<totalColumns<<endl;
+     
     return 0;
 }
